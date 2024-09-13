@@ -1,0 +1,97 @@
+body {
+  margin: 0; /* Remove margens padrão do body */
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  background-color: #f4f4f4; /* Cor de fundo padrão clara */
+  color: #333; /* Cor do texto padrão */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave para mudanças de cor */
+}
+
+.container {
+  max-width: 1200px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 20px; /* Espaçamento interno */
+}
+
+.header {
+  text-align: center; /* Centraliza o texto no cabeçalho */
+  background-color: #0077cc; /* Cor de fundo do cabeçalho */
+  color: white; /* Cor do texto no cabeçalho */
+  padding: 20px; /* Espaçamento interno do cabeçalho */
+  border-radius: 8px; /* Bordas arredondadas do cabeçalho */
+  position: relative; /* Permite o posicionamento absoluto dos elementos internos */
+}
+
+.logo {
+  width: 100px; /* Largura da imagem do logo */
+  margin-top: 10px; /* Margem superior do logo */
+}
+
+.toggle-button {
+  position: absolute; /* Posiciona o botão no canto superior direito */
+  top: 20px; /* Distância do topo */
+  right: 20px; /* Distância da direita */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  background-color: white; /* Cor de fundo do botão */
+  border: none; /* Remove bordas do botão */
+  border-radius: 5px; /* Bordas arredondadas do botão */
+  cursor: pointer; /* Alteração do cursor ao passar sobre o botão */
+}
+
+.toggle-button:hover {
+  background-color: #e0e0e0; /* Cor de fundo ao passar o mouse sobre o botão */
+}
+
+.main-content {
+  margin: 20px 0; /* Margem acima e abaixo do conteúdo principal */
+}
+
+h2 {
+  color: #0077cc; /* Cor dos títulos (h2) */
+}
+
+.overview, .mission {
+  background: white; /* Cor de fundo das seções */
+  padding: 20px; /* Espaçamento interno das seções */
+  margin: 10px 0; /* Margem acima e abaixo das seções */
+  border-radius: 8px; /* Bordas arredondadas das seções */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombreamento das seções */
+}
+
+.footer {
+  text-align: center; /* Centraliza o texto no rodapé */
+  margin: 20px 0; /* Margem acima e abaixo do rodapé */
+  font-size: 0.9em; /* Tamanho da fonte do rodapé */
+}
+
+/* Estilos para o modo escuro */
+.dark {
+  background-color: #121212; /* Cor de fundo escura no modo escuro */
+  color: #ffffff; /* Cor do texto clara no modo escuro */
+}
+
+.dark .header {
+  background-color: #005999; /* Cor do cabeçalho em modo escuro */
+}
+
+.dark .overview, .dark .mission {
+  background: #1e1e1e; /* Fundo das seções em modo escuro */
+  color: white; /* Texto claro nas seções em modo escuro */
+}
+
+.dark .toggle-button {
+  background-color: #555; /* Fundo do botão em modo escuro */
+  color: white; /* Texto claro no botão em modo escuro */
+}
+
+.dark .toggle-button:hover {
+  background-color: #666; /* Cor de fundo ao passar o mouse sobre o botão em modo escuro */
+}
+
+/* Garantindo que todo o site tenha fundo escuro em modo escuro */
+.dark isa-crypted {
+  background-color: #121212; /* Fundo escuro para todo o site (possível erro de sintaxe aqui) */
+}
+
+.dark h2 {
+  color: #0099ff; /* Cor dos títulos (h2) em modo escuro */
+}
